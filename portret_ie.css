@@ -1,0 +1,54 @@
+/* 
+    Document   : portret
+    Created on : 2010-12-27, 15:57:13
+    Author     : Radek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+#portret-obraz-cont
+{
+    width: 260px;
+    float: left;
+    margin-left: 10px;
+}
+
+#portret-opis-cont
+{
+    float: left;
+    width: 300px;
+   margin-left: 2px;
+}
+
+#portret-obraz-main
+{
+    width: 260px;
+    
+    margin-bottom: 10px;
+}
+
+.portret-obraz-small
+{
+    width: 50px;
+    
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.portret-dane-sprzedajacego
+{
+   /* border: 1px solid red;*/
+    float: left;
+    margin-left: 10px;
+}
+
+#portret-linki
+{
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: 2em;
+    margin-right: 3em;
+}

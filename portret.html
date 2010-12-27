@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>ArtOferta</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <![if IE]>
+        <link rel="stylesheet" type="text/css" href="artoferta_ie.css">
+         <link rel="stylesheet" type="text/css" href="portret_ie.css">
+        <![endif]>
+        <![if !IE]>
+        <link rel="stylesheet" type="text/css" href="artoferta.css">
+         <link rel="stylesheet" type="text/css" href="portret.css">
+        <![endif]>
+       
+
+
+    </head>
+    <body>
+        <div id="glowny"><a href="#"><img src="logo.png" style="border: none;"></a>
+            <div id="oferta_btn"><a href="#">+dodaj ofertę</a></div>
+            <div id="up-menu">
+
+
+                <div class="menu-btn"><a href="#" id="selected">artyści</a></div>
+                <div class="menu-btn"><a href="#">Moje Konto</a></div>
+                <div class="menu-btn"><a href="#">Moi Artyści</a></div>
+                <div class="menu-btn"><a href="#">O Nas</a></div>
+                <div class="menu-btn"><a href="#">Kontakt</a></div>
+
+
+            </div> <div id="menu-wypeln"></div>
+            <div id="srodek">
+                <div id="main-cont">
+
+                    <div id="menu-lewe">
+                        <br />
+                        <div class="szukajka-div">
+                            <input type="text" class="szukajka" id="szukajka" value="Wpisz tekst" name="szukajka" onfocus = "this.value='';this.style.color='black'"/>
+                        </div>
+                        <br /><br />
+                        <div class="blok-szary"></div>
+                        <div class="podpis_menu">Technika</div>
+                        <div class="menu_czerwone"  id="blok_technika">
+                            <ul class="checkbox_list">
+
+
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_0" value="0" name="technika[]">&nbsp;
+                                    <label for="technika_0">Olej</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_1" value="1" name="technika[]">&nbsp;
+                                    <label for="technika_1">Akryl</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_2" value="2" name="technika[]">&nbsp;
+                                    <label for="technika_2">Akwarela</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_3" value="3" name="technika[]">&nbsp;
+                                    <label for="technika_3">Gwasz</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_4" value="4" name="technika[]">&nbsp;
+                                    <label for="technika_4">Tempera</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_5" value="5" name="technika[]">&nbsp;
+                                    <label for="technika_5">Collage</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_6" value="6" name="technika[]">&nbsp;
+                                    <label for="technika_6">Rysunek</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_7" value="7" name="technika[]">&nbsp;
+                                    <label for="technika_7">Grafika</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_8" value="8" name="technika[]">&nbsp;
+                                    <label for="technika_8">Technika Mieszana</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_9" value="9" name="technika[]">&nbsp;
+                                    <label for="technika_9">Inna</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="technika_10" value="10" name="technika[]">&nbsp;
+                                    <label for="technika_10">Nie Wiem</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="blok-szary"></div>
+                        <div class="podpis_menu">Data</div>
+                        <div class="menu_czerwone"  id="blok_data">
+                            <ul class="checkbox_list">
+
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="creation_date_0" value="0" name="creation_date[]">&nbsp;
+                                    <label for="creation_date_0">do 1900</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="creation_date_1" value="1" name="creation_date[]">&nbsp;
+                                    <label for="creation_date_1">I poł. XX w.</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="creation_date_2" value="2" name="creation_date[]">&nbsp;
+                                    <label for="creation_date_2">II poł. XX w.</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="creation_date_3" value="3" name="creation_date[]">&nbsp;
+                                    <label for="creation_date_3">XXI w.</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blok-szary"></div>
+                        <div class="podpis_menu">Temat</div>
+                        <div class="menu_czerwone" id="blok_temat">
+                            <ul class="checkbox_list">
+
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_0" value="0" name="temat[]">&nbsp;
+                                    <label for="temat_0">Abstrakcja</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_1" value="1" name="temat[]">&nbsp;
+                                    <label for="temat_1">Pejzaż</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_2" value="2" name="temat[]">&nbsp;
+                                    <label for="temat_2">Portret</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_3" value="3" name="temat[]">&nbsp;
+                                    <label for="temat_3">Martwa Natura</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_4" value="4" name="temat[]">&nbsp;
+                                    <label for="temat_4">Mal. Rodzajowe</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_5" value="5" name="temat[]">&nbsp;
+                                    <label for="temat_5">Akt</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_6" value="6" name="temat[]">&nbsp;
+                                    <label for="temat_6">Mal. Religijne</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_7" value="7" name="temat[]">&nbsp;
+                                    <label for="temat_7">Mal. Mitologiczne</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_8" value="8" name="temat[]">&nbsp;
+                                    <label for="temat_8">Mal. Historyczne</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_9" value="9" name="temat[]">&nbsp;
+                                    <label for="temat_9">Mal. Marynistyczne</label>
+                                </li>
+                                <li class="drop-menu">
+                                    <input type="checkbox" id="temat_10" value="10" name="temat[]">&nbsp;
+                                    <label for="temat_10">Inne</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blok-szary"></div>
+
+                        <div class="podpis_menu">Certyfikat</div>
+                        <div class="menu_czerwone">
+                            <div class="cena-cont">
+                                <select>
+                                    <option>Certyfikat</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="blok-szary"></div>
+                        <div class="podpis_menu">Cena</div>
+                        <div class="menu_czerwone">
+                            <div class="cena-cont">
+
+                                Od
+                                <input type="text" class="inpt-cena" id="cena-od" value="" name="cena-od" />
+                                Do
+                                <input type="text" class="inpt-cena" id="cena-do" value="" name="cena-do" />
+                            </div>
+                        </div>
+                        <div class="blok-szary"></div>
+                        <div id="szukaj-btn-cont">
+                            <input type="submit" id="szukaj-btn" value="Szukaj" />
+                        </div>
+                        <br class="clear" />
+                    </div>
+
+                    <div id="zawartosc">
+                        <div id="portret-obraz-cont">
+                            <div id="portret-obraz-main"><img src="autoportret.jpg"></div>
+                            <div class="portret-obraz-small"><a href="#"><img src="autoportret_small.gif"></a></div>
+                            <div class="portret-obraz-small"><a href="#"><img src="autoportret_small.gif"></a></div>
+                            <div class="portret-obraz-small"><a href="#"><img src="autoportret_small.gif"></a></div>
+                            <div class="portret-obraz-small"><a href="#"><img src="autoportret_small.gif"></a></div>
+                            <div class="portret-obraz-small"><a href="#"><img src="autoportret_small.gif"></a></div>
+                        </div>
+                        <div id="portret-opis-cont">
+                            <h2>Vincent van Gogh</h2>
+
+                            <h1>Autoportret</h1>
+
+                            Wymiary: 100x100<br />
+                            Technika: Olej<br />
+                            Data: 1901<br />
+                            Sygnatura: prawy dolny<br />
+                            Cena: 1 000 000$<br />
+                            Data Wygaśnięcia: 1.12.2009<br /><br />
+                            Obraz dostałem w spadku po wuju. Nie pasuje do mojego nowego wystroju mieszkania, dlatego go sprzedaję. Zachowany jest bardzo dobrze...<br />
+                            <br /><br />
+                            Ekspertyza:<br />
+                            Obraz bez wątpienia autentyczny, zarówno technika i sposób kładzenia farby jak i podjęta tematyka są charakterystyczne dla autora...<br />
+                        </div>
+                        <hr style="width: 90%;">
+                        <div class="portret-dane-sprzedajacego">
+                            <strong>Sprzedający</strong><br />
+                            tel. 22 724 17 00<br />
+                            email: jan@kowalski.pl<br />
+                            woj. podkarpackie
+                        </div>
+                        <div id="portret-linki">
+                            <a href="#">Kup przez pośrednika</a>
+                            <a href="#">Zamów ekspertyzę</a>
+                        </div>
+                        <hr style="width: 90%; clear: both;">
+                        <div class="portret-dane-sprzedajacego">
+                            <strong>Inne obrazy sprzedającego</strong>
+                            <ul>
+                                <li><a href="#">Autor Nieznany - Martwa Natura</a></li>
+                                <li><a href="#">Autor Nieznany - Akt</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="blok-reklam-bok">
+                    <div class="reklama-boczna">Reklama 1</div>
+                    <div class="reklama-boczna">Reklama 2</div>
+                    <div class="reklama-boczna">Reklama 3</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+
+
+                <div id="stopka-wypeln"></div>
+                <div id="stopka">Tutaj jest stopka. Copyright 2010-2011.<div id="logo-stopka"></div>
+                </div>
+
+                <div style="clear:both;"></div>
+
+            </div>
+        </div>
+    </body>
+</html>
