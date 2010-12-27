@@ -1,0 +1,46 @@
+/* 
+    Document   : moje_konto
+    Created on : 2010-12-21, 21:47:14
+    Author     : Radek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#zawartosc-expanded
+{
+    width: 783px;
+    min-height: 500px;
+    float: left;
+    border: none;
+    border-top: 3px solid red;
+    border-left: none;
+    padding-top: 20px;
+
+
+}
+
+#zawartosc-expanded table
+{
+    width: 100%;
+    border: 1px solid red;
+    /*border-collapse: collapse; */
+}
+
+#zawartosc-expanded td
+{
+    border: 1px solid red;
+    text-align: center;
+}
+
+#stopka
+{
+    float:left;
+    width: 730px;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-top: 0;
+    border: none;
+
+}

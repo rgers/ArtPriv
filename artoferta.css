@@ -1,0 +1,399 @@
+/* 
+    Document   : artoferta
+    Created on : Dec 18, 2010, 11:47:40 AM
+    Author     : radekg
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html {
+    display: block;
+    background-color: #404040;
+    color: gray;
+
+}
+
+#glowny
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+
+
+}
+
+#srodek
+{
+    width: 95%;
+    background-color: #FFFFFF;
+    border: none;
+    margin-bottom: 10px;
+
+
+
+}
+
+
+
+#blok-reklam-bok
+{
+    width: 160px;
+    float: right;
+    margin-right: 0px;
+    border: none;
+}
+
+.reklama-boczna
+{
+    width: 160px;
+    height: 130px;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
+
+#menu-lewe
+{
+    width: 180px;
+    min-height: 530px;
+    font-size: 12px;
+
+    clear:left;
+    float: left;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    border-right: 3px solid red;
+
+    padding-right: 10px;
+}
+.clear { clear: both; }
+
+#zawartosc
+{
+    width: 580px;
+    min-height: 500px;
+    float: left;
+    margin-left: -3px;
+    border: none;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    padding-top: 20px;
+
+
+}
+
+
+
+#up-menu
+{
+    width: 580px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+    float:left;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+}
+
+#menu-wypeln
+{
+    float: left;
+    border: 3px solid red;
+    width: 214px;
+    height: 30px;
+    margin-top: 20px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+.menu-btn
+{
+    float: left;
+    width: 115px;
+    height: 25px;
+    margin-left: -2px;
+    border: 3px solid red;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+
+
+.inpt-cena
+{
+    width: 40px;
+}
+
+#header ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+    width: 800px;
+}
+
+#header li {
+    display: block;
+    float: left;
+    border: solid red;
+    border-width: 4px 4px 4px 0px;
+    margin: 0 0 0 0;
+}
+
+
+
+
+a#selected {
+    color: red;
+}
+
+.szukajka
+{
+    background: none;
+    border: 2px solid red;
+    border-left: none;
+    height: 45px;
+    width: 180px;
+    color: gray;
+}
+
+.blok-szary
+{
+    background-color: #DEDEDE;
+    margin-left: 10px;
+    width: 100px;
+    height: 20px;
+}
+.szukajka:focus
+{
+    outline: 0 none;
+}
+.szukajka-div
+{
+    background: none;
+    margin-left: -10px;
+    height: 30px;
+}
+
+
+#oferta_btn
+{
+    height: 1.3em;
+    width: 6em;
+    float: right;
+    background: none;
+    border-left: 3px solid red;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    margin: 50px 0px 10px auto;
+    font-size: 2em;
+    /*
+    position:relative; */
+    padding-left: 20px;
+    padding-top: 10px;
+    /*
+    bottom: 60px;
+    left: 800px; */
+}
+
+a
+{
+    text-decoration: none;
+    color: gray;
+}
+a:hover
+{
+    color: black;
+}
+
+#szukaj-btn
+{
+    border: none;
+    background: none;
+    color: gray;
+    height: 25px;
+    padding-left: 30px;
+    background-image: url("/images/lupka-solo.gif");
+    background-repeat: no-repeat;
+
+}
+
+#szukaj-btn:hover
+{
+    color: black;
+}
+
+#szukaj-btn-cont
+{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #DEDEDE;
+
+
+}
+
+.cena-cont
+{
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.drop-menu
+{
+    display: none;
+}
+
+#blok_technika
+{
+    height: auto;
+}
+
+#blok_data
+{
+    height: auto;
+}
+
+#blok_temat
+{
+    height: auto;
+}
+
+.menu_czerwone#blok_technika:hover .drop-menu {display: block;}
+.menu_czerwone#blok_data:hover .drop-menu {display: block;}
+.menu_czerwone#blok_temat:hover .drop-menu {display: block;}
+
+.menu_czerwone
+{
+    /* margin-top: 10px;
+     margin-bottom: 10px;*/
+    outline-color: red;
+    border: 2px solid red;
+    border-left: none;
+    margin-left: -10px;
+    min-height: 45px;
+    width: 180px;
+}
+
+#stopka
+{
+    float:left;
+    width: 530px;
+    height: auto;
+    margin-left: -3px;
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-top: 0;
+    border: none;
+    border-left: 3px solid red;
+
+}
+
+#stopka-wypeln
+{
+    margin-top: -3px;
+    border-top: 3px solid gray;
+    border-right: 3px solid red;
+    float: left;
+    width: 200px;
+    height: 20px;
+}
+
+.blok-liter
+{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.litera
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 10px;
+    border: 2px solid red;
+    float: left;
+}
+
+.litera#selected
+{
+    color: red;
+}
+
+.litera:hover
+{
+    color: black;
+}
+
+#main-cont
+{
+    float: left;
+    width: 783px;
+    border: none;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    margin-right: 0px;
+}
+
+#zawartosc a
+{
+    text-decoration: underline;
+}
+
+select
+{
+    border: none;
+    outline: none;
+}
+
+.podpis_menu
+{
+    float: right;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+#logo-stopka
+{
+    background-image: url("logo_mini.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 31px;
+    float: right;
+}
+
+#nazwiska
+{
+    font-size: 1.2em;
+}
+
+.cena-cont select{ width: 100px;}
+
+#rejestracja
+{
+    text-align: right;
+}
+
+#rejestracja input
+{
+    border: 2px solid red;
+}

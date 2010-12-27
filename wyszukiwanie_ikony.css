@@ -1,0 +1,16 @@
+/* 
+    Document   : wyszukiwanie_ikony
+    Created on : 2010-12-21, 19:16:40
+    Author     : Radek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.wyszukiwanie-ikony-element
+{
+    border: 1px solid red;
+    margin: 7px 7px 7px 7px;
+    width: 170px;
+    height: 137px;
+    float: left;
+}

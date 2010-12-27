@@ -1,0 +1,139 @@
+/* 
+    Document   : wyszukiwanie
+    Created on : 2010-12-21, 16:35:46
+    Author     : Radek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#wyszukiwanie-blok-gorny
+{
+    border: 2px solid red;
+    width: 95%;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.wyszukiwanie-wynik
+{
+    border: none;
+    width: 95%;
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.wyszukiwanie-btn
+{
+    float: left;
+    margin-left: -2px;
+    width: 33%;
+    height: 30px;
+    border: 2px solid red;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 28px;
+
+}
+
+.wyszukiwanie-cont
+{
+    width: 450px;
+    z-index: 0;
+    position: absolute;
+    height: 230px;
+    background-color: #DEDEDE;
+}
+
+.wyszukiwanie-wynik-tekst
+{
+    width: 95%;
+    position: relative;
+    z-index: 3;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.wyszukiwanie-wynik-obraz
+{
+    width: 260px;
+    height: 210px;
+    position: relative;
+    z-index: 3;
+    /*border: 1px solid red;*/
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.wyszukiwanie-wynik-tabela
+{
+    position: relative;
+    z-index: 3;
+    width: 200px;
+    height: 70%;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    /*   border: 1px solid red; */
+}
+
+.wyszukiwanie-czerwone
+{
+    background-color: white;
+    outline-color: red;
+    font-size: 18px;
+    border: 2px solid red;
+    margin-top: 15px;
+    margin-left: -15px;
+    min-height: 20px;
+    width: 200px;
+}
+
+.wyszukiwanie-podpis
+{
+    float: right;
+    margin-top: -2px;
+    margin-right: 10px;
+}
+
+.moiartysci-artysci
+{
+    /* margin-top: 10px;
+     margin-bottom: 10px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    outline-color: red;
+    font-size: 18px;
+    border: 2px solid red;
+    border-left: none;
+    border-top: none;
+    text-align: right;
+    margin-left: -10px;
+    width: 180px;
+}
+
+.moiartysci-title
+{
+    /* margin-top: 10px;
+     margin-bottom: 10px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    outline-color: red;
+    font-size: 18px;
+    color: red;
+    border: 2px solid red;
+    border-left: none;
+    text-align: right;
+    margin-left: -10px;
+    width: 180px;
+}
